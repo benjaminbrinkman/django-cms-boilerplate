@@ -11,7 +11,9 @@ def read(fname):
 setup(
     name = "django-cms-boilerplate",
     install_requires = [
+        "django-mptt==0.5.2",
         "django-cms==2.4.3",
+        "django-reversion==1.7",
     ],
     version = "0.1",
     author = "Benjamin Brinkman",
