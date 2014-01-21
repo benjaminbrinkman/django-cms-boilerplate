@@ -9,16 +9,16 @@ Usage:
 
 Using a virtualenv is recommended.
 
-# pip install virtualenv
-$ virtualenv cms-env
-$ source cms-env/bin/activate
+ pip install virtualenv
+ virtualenv cms-env
+ source cms-env/bin/activate
 
 Then to install within the virtualenv:
 
-$ pip install django-cms-boilerplate
+ pip install django-cms-boilerplate
 
 Then use
 
-$ cms-admin.py startproject [YOUR PROJECT NAME]
+ cms-admin.py startproject [YOUR PROJECT NAME]
 
 anywhere in the filesystem to create a default django cms project template.  Comes with HTML and CSS Templates based on Bootstrap to get you started quickly.
