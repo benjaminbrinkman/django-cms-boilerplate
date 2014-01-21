@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Bootstrap -->
+   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+   <link href="css/style.css" rel="stylesheet" type="text/css">
+   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+   <![endif]-->
+  <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans' rel='stylesheet' type='text/css'>
+  <title>Amazebread</title>
+ </head>
+ <body>
+  <div class="container">
+   <header>
+   <div id="header">
+    <h1 class="col-md-7 col-xs-12"><a href="#">Amazebread</a></h1>
+	<nav>
+	 <div id="nav">
+	  <ul class="nav">
+ 	   <li class="col-md-1 col-xs-12"><a href="#">Home</a></li>
+	   <li class="col-md-1 col-xs-12"><a href="#">Menu</a></li>
+	   <li class="col-md-1 col-xs-12"><a href="#">Blog</a></li>
+	   <div class="social">
+	    <li class="col-md-2 col-xs-12">
+	     <a href="#"><img src="img/facebook.GIF"></a>
+		 <a href="#"><img src="img/twitter.GIF"></a>
+		</li>
+	   </div>
+	  </ul>
+	 </div>
+	</nav>
+   </div>
+   </header>
+   <article>
+    <div id="article">
+    </div>
+   </article>
+   <footer>
+    <div id="footer" class="col-xs-12">
+     <span id="copyright">Amazebread Bakeries &copy; 2014</span>
+    </div>
+   </footer>
+  </div>
+ </body>
+</html>
