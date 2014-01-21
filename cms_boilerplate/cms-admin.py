@@ -2,6 +2,7 @@ import os
 import subprocess
 INITIAL_PROJECT_PATH = os.path.split(os.path.abspath(os.path.dirname(__file__)))[0]
 
+# copies a skeleton project in the startproject directory into a new directory
 def startproject(projectname):
     print("Creating project...")
     subprocess.call(["cp", "-r", os.path.join(INITIAL_PROJECT_PATH, "../startproject/"), "."])
@@ -9,9 +10,15 @@ def startproject(projectname):
     print("Project creation successful!")
 
 def main(argv):
-    if argv[1] == "startproject":
-        startproject(argv[2])
-    else:
+    try:
+        if argv[1] == "startproject":
+            try:
+                startproject(argv[2])
+            except IndexError:
+                print("Please enter a project name after 'startproject'.")
+        else:
+            print("Please enter a valid command. So far startproject is the only one")
+    except IndexError:
         print("Please enter a valid command.  So far startproject is the only one.")
     return 0
 
