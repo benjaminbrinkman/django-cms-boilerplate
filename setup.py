@@ -11,13 +11,12 @@ def read(fname):
 setup(
     name = "django-cms-boilerplate",
     install_requires = [
-#        "boilerplate_theme==1.0",
         "django-mptt==0.5.2",
         "django-cms==2.4.3",
         "django-reversion==1.7",
         "Pillow",
     ],
-    version = "1.0",
+    version = "1.0beta1",
     scripts = ["cms_boilerplate/cms-admin.py"],
     author = "Benjamin Brinkman",
     author_email = "ben@benjaminbrinkman.com",
