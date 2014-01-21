@@ -9,13 +9,14 @@ Usage:
 
 Using a virtualenv is recommended.
 
- pip install virtualenv
- virtualenv cms-env
- source cms-env/bin/activate
+pip install virtualenv
+virtualenv cms-env
+
+source cms-env/bin/activate
 
 Then to install within the virtualenv:
 
- pip install django-cms-boilerplate
+pip install django-cms-boilerplate
 
 Then use
 
