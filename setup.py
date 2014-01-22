@@ -33,6 +33,6 @@ setup(
     ],
     package_data = {
         # If any package contains *.html or *.css files, include them:
-        '': ['*.html', '*.css', '*.GIF'],
+        '': ['*.html', '*.css', '*.GIF', 'README.md', 'LICENSE'],
     },
 )
