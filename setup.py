@@ -16,7 +16,7 @@ setup(
         "django-reversion==1.7",
         "Pillow",
     ],
-    version = "1.0beta1",
+    version = "1.0beta1.1",
     scripts = ["cms_boilerplate/cms-admin.py"],
     author = "Benjamin Brinkman",
     author_email = "ben@benjaminbrinkman.com",
