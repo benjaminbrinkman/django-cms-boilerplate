@@ -52,41 +52,57 @@
   <p>Django CMS Boilerplate takes the power of Django and Django CMS and wraps them together into an easy to use project template.  This way, you can quickly and easily create websites that can be extended with the powerful Python programming language.</p>
   <h3>Quickstart</h3>
   <p>Using a virtualenv is recommended.  This tutorial assumes that you have a working Python 2.7.x installed on your system with pip available to install packages from PyPI.</p>
+<pre>
   <code>
     # pip install virtualenv
   </code>
+</pre>
   <p>Now setup a virtualenv for the CMS</p>
+<pre>
   <code>
     $ virtualenv cms-env
     $ source cms-env/bin/activate
   </code>
+</pre>
   <p>Now you should see a prompt like this:</p>
+<pre>
   <code>
     (cms-env) $ 
   </code>
+</pre>
   <p>This means you are using the virtualenv.  So now you can install the boilerplate into the cms-env.</p>
+<pre>
   <code>
     (cms-env) $ pip install django-cms-boilerplate
   </code>
+</pre>
   <p>Now it's time to prepare a workspace.</p>
+<pre>
   <code>
     (cms-env) $ mkdir ~/workspace
     (cms-env) $ cd ~/workspace
   </code>
+</pre>
   <p>So now you can create your project with the following.</p>
+<pre>
   <code>
     (cms-env) $ cms-admin.py startproject myproject
     (cms-env) $ cd myproject
   </code>
+</pre>
   <p>Replace myproject with any name you would prefer.  This can be renamed later so don't worry.  The boilerplate project uses the sqlite database by default, although due to it being based on django, you can use a variety of different databases.  sqlite is not recommended for production use, but others like mysql are.  This can be changed easily.  See the <a href="http://djangoproject.com">Django</a> docs for more details.  For now, if you are just developing/testing, sqlite will work fine.</p>
+<pre>
   <code>
     (cms-env) $ python manage.py syncdb --all
     (cms-env) $ python manage.py migrate --fake
   </code>
+</pre>
   <p>This will set up your database.  You will be asked a few questions regarding how you want to log into the admin area of your website.  Now, you can start the development server with:</p>
+<pre>
   <code>
     (cms-env) $ python manage.py runserver
   </code>
+</pre>
   <p>Navigate your browser to 127.0.0.1:8000 and there it is!  If you log into the admin interface to add pages, when you look at those pages, you will notice that the boilerplate includes a nice default theme based on Bootstrap.</p>
  </div>
 
