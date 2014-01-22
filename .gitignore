@@ -1,7 +1,11 @@
 # Emacs stuff
 *~
 
+<<<<<<< HEAD
 # documentation zip
+=======
+# docs zipfile
+>>>>>>> master
 docs.zip
 
 *.py[cod]
