@@ -1,6 +1,9 @@
 # Emacs stuff
 *~
 
+# documentation zip
+docs.zip
+
 *.py[cod]
 
 # C extensions
