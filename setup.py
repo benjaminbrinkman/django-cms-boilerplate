@@ -16,7 +16,7 @@ setup(
         "django-reversion==1.7",
         "Pillow",
     ],
-    version = "1.0beta1.1",
+    version = "1.0beta1",
     scripts = ["cms_boilerplate/cms-admin.py"],
     author = "Benjamin Brinkman",
     author_email = "ben@benjaminbrinkman.com",
@@ -25,7 +25,6 @@ setup(
     keywords = "cms boilerplate django web",
     url = "http://packages.python.org/cms-boilerplate",
     packages=['cms_boilerplate', 'startproject', 'startproject.myproject', 'startproject.static', 'startproject.static-new', 'startproject.static-new.css', 'startproject.static-new.img', 'startproject.templates'],
-    long_description=read('README.md'),
     classifiers=[
         "Development Status :: 4 - Beta",
         "Topic :: Utilities",

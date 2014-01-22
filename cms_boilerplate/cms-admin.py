@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import os
 import subprocess
 INITIAL_PROJECT_PATH = os.path.split(os.path.abspath(os.path.dirname(__file__)))[0]
