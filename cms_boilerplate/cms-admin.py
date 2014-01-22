@@ -7,7 +7,7 @@ INITIAL_PROJECT_PATH = os.path.split(os.path.abspath(os.path.dirname(__file__)))
 # copies a skeleton project in the startproject directory into a new directory
 def startproject(projectname):
     print("Creating project...")
-    subprocess.call(["cp", "-r", os.path.join(INITIAL_PROJECT_PATH, "startproject/"), "."])
+    subprocess.call(["cp", "-r", os.path.join(INITIAL_PROJECT_PATH, "lib/python2.7/site-packages/startproject/"), "."])
     subprocess.call(["mv", "startproject", projectname])
     print("Project creation successful!")
 
