@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Bootstrap -->
+   <link href="index_files/bootstrap.css" rel="stylesheet" type="text/css">
+   <link href="index_files/style.css" rel="stylesheet" type="text/css">
+   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+   <![endif]-->
+  <link href="index_files/css.css" rel="stylesheet" type="text/css">
+  <title></title>
+ </head>
+ <body>
+  <div class="container">
+   <header>
+   <div id="header">
+    <div id="logo" class="col-md-4 col-xs-12"><h2>Django-CMS-Boilerplate</h2></div>
+    <nav>
+     <div id="nav">
+      <ul class="nav">
+       
+<!--
+<li class="col-md-2 col-xs-12 selected">
+	<a href="index.html">Quick Start</a>
+</li>
+<li class="col-md-2 col-xs-12">
+  <a href="businesses.html">For Businesses</a>
+</li>
+<li class="col-md-2 col-xs-12">
+  <a href="designers.html">For Designers</a>
+</li>
+<li class="col-md-2 col-xs-12">
+  <a href="developers.html">For Developers</a>
+</li>-->
+       <div class="social">
+       </div>
+      </ul>
+     </div>
+    </nav>
+   </div>
+   </header>
+   <article>
+    <div id="article">
+      
+ <div class="col-md-12 col-xs-12">
+  <h3>Introduction</h3>
+  <p>Django CMS Boilerplate takes the power of Django and Django CMS and wraps them together into an easy to use project template.  This way, you can quickly and easily create websites that can be extended with the powerful Python programming language.</p>
+  <h3>Quickstart</h3>
+  <p>Using a virtualenv is recommended.  This tutorial assumes that you have a working Python 2.7.x installed on your system with pip available to install packages from PyPI.</p>
+  <code>
+    # pip install virtualenv
+  </code>
+  <p>Now setup a virtualenv for the CMS</p>
+  <code>
+    $ virtualenv cms-env
+    $ source cms-env/bin/activate
+  </code>
+  <p>Now you should see a prompt like this:</p>
+  <code>
+    (cms-env) $ 
+  </code>
+  <p>This means you are using the virtualenv.  So now you can install the boilerplate into the cms-env.</p>
+  <code>
+    (cms-env) $ pip install django-cms-boilerplate
+  </code>
+  <p>Now it's time to prepare a workspace.</p>
+  <code>
+    (cms-env) $ mkdir ~/workspace
+    (cms-env) $ cd ~/workspace
+  </code>
+  <p>So now you can create your project with the following.</p>
+  <code>
+    (cms-env) $ cms-admin.py startproject myproject
+    (cms-env) $ cd myproject
+  </code>
+  <p>Replace myproject with any name you would prefer.  This can be renamed later so don't worry.  The boilerplate project uses the sqlite database by default, although due to it being based on django, you can use a variety of different databases.  sqlite is not recommended for production use, but others like mysql are.  This can be changed easily.  See the <a href="http://djangoproject.com">Django</a> docs for more details.  For now, if you are just developing/testing, sqlite will work fine.</p>
+  <code>
+    (cms-env) $ python manage.py syncdb --all
+    (cms-env) $ python manage.py migrate --fake
+  </code>
+  <p>This will set up your database.  You will be asked a few questions regarding how you want to log into the admin area of your website.  Now, you can start the development server with:</p>
+  <code>
+    (cms-env) $ python manage.py runserver
+  </code>
+  <p>Navigate your browser to 127.0.0.1:8000 and there it is!  If you log into the admin interface to add pages, when you look at those pages, you will notice that the boilerplate includes a nice default theme based on Bootstrap.</p>
+ </div>
+
+    </div>
+   </article>
+   <footer>
+    <div id="footer" class="col-xs-12">
+     <span id="copyright"><strong>Proudly Powered By: Django-CMS-Boilerplate</strong></span>
+    </div>
+   </footer>
+  </div>
+ 
+
+</body></html>
