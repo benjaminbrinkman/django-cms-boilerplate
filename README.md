@@ -17,10 +17,10 @@ source cms-env/bin/activate
 
 Then to install within the virtualenv (this project currently only has a beta release, USE WITH CAUTION, however, testing is appreciated):
 
-pip install django-cms-boilerplate==1.0beta2
+pip install django-cms-boilerplate==1.0beta3
 
 Then use
 
 cms-admin.py startproject [YOUR PROJECT NAME]
 
-anywhere in the filesystem to create a default django cms project template.  Comes with HTML and CSS Templates based on Bootstrap to get you started quickly.
+anywhere in the filesystem to create a default django cms project template.  Comes with HTML and CSS Templates based on Bootstrap to get you started quickly.  Please note, there is a known issue of an incompatibility between Bootstrap and the inline editing feature in Django-cms, which affects the default theme.  It prevents use of the cms_toolbar in the default theme.  I will be working on submitting a patch to upstream that resolves this.
