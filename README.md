@@ -15,7 +15,7 @@ virtualenv cms-env
 
 source cms-env/bin/activate
 
-Then to install within the virtualenv (this project currently only has a beta release, USE WITH CAUTION, however, testing is appreciated):
+Then to install within the virtualenv:
 
 pip install django-cms-boilerplate
 
